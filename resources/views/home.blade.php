@@ -40,26 +40,13 @@
             ...
           </div>
         </div>
-
-        <div class="item">
-          <img class="img-responsive center-block" src="img/updated-outdoor-fence-2.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
         <div class="item adjust">
           <img class="img-responsive center-block" src="img/mural1.jpg" alt="...">
           <div class="carousel-caption">
             ...
           </div>
         </div>
-        <div class="item adjust-height">
-          <img class="img-responsive center-block" src="images/interior/cabinet-condo-restoration/cabinet-condo-15.png" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-          <div class="item adjust-height">
+          <div class="item ">
           <img class="img-responsive center-block" src="images/interior/wallpaper-removal/wallpaper-removal.jpg" alt="...">
           <div class="carousel-caption">
             ...
@@ -71,7 +58,7 @@
             ...
           </div>
         </div>
-           <div class="item">
+           <div class="item adjust">
           <img class="img-responsive center-block" src="images/exterior/fence/fence3.jpg" alt="...">
           <div class="carousel-caption">
             ...

@@ -49,20 +49,18 @@
 		<!--main-nav-->
 
 		<div id="main-nav">
-
 			<nav class="navbar">
 				<div class="container">
-
 					<div class="navbar-header">
-					<!--	<a href="index.html" >
-						    <img src="/images/MyBiz/painting-logo.png"></img>
-						</a> -->
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-							<span class="sr-only">Toggle</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+						<div class="navbar-toggle">
+							<img src="img/logo.jpg" >
+							<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
+								<span class="sr-only">Toggle</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
 					</div>
 
 					<div class="navbar-collapse collapse" id="ftheme">

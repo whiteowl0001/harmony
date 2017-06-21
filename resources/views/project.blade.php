@@ -99,7 +99,7 @@
                                <!--Interior 2:images-->
             <div class="item active">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 col-sm-12">
                   <img  class="img-responsive" src="images/interior/interior1.jpg" alt="First slide">
                 </div>
               
@@ -107,7 +107,7 @@
             </div>
             <div class="item">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 col-xs-12">
               <img  class="img-responsive" src="images/interior/interior.jpg" alt="First slide">
                     </div>
                
@@ -115,7 +115,7 @@
             </div>
              <div class="item">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 col-sm-12">
               <img  class="img-responsive" src="images/interior/interior-3.jpg" alt="First slide">
                     </div>
                
