@@ -26,34 +26,34 @@
                     <div class="skill">
                         <h2>Our Skills</h2>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Painting - Interior and Exterior</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Residential Painting</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Wallpaper removal</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>All styles of finish and stains</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Murals and design</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Dry Wall and Plaster Repair</h3>
-                            </a>
+                            
                         </div>
                     </div>
 

@@ -20,8 +20,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author"> James G. </span>
-                        in <a href="/c.Verona.NJ.html">Verona, NJ</a>
+                        <span itemprop="author"> James G. in Verona, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>
@@ -55,8 +54,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author">Ron F. </span>
-                        in <a href="/c.Verona.NJ.html">Saddle River, NJ</a>
+                        <span itemprop="author">Ron F. in Saddle River, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>
@@ -90,8 +88,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author">Lorraine C. </span>
-                        in <a href="/c.Verona.NJ.html">Nutley, NJ</a>
+                        <span itemprop="author">Lorraine C. in Nutley, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>
@@ -124,8 +121,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author">Mary K.</span>
-                        in <a href="/c.Verona.NJ.html">Nutley, NJ</a>
+                        <span itemprop="author">Mary K. in Nutley, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>
@@ -236,8 +232,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author">Ruth M.</span>
-                        in <a href="/c.Verona.NJ.html">Bloomfield, NJ</a>
+                        <span itemprop="author">Ruth M. in Bloomfield, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
+    <meta name="google-site-verification" content="E79bmhBqLo3q-COSq7-VtWtnYj9dm2IgLEm9Y-6op7Y" />
     <!-- Bootstrap -->
 
    

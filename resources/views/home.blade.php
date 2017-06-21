@@ -140,34 +140,33 @@
                     <div class="skill">
                         <h2>Our Skills</h2>
                         <div class="progress-wrap">
-                            <a href="#">
                             <h3>Painting - Interior and Exterior</h3>
-                            </a>
+                    
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                           
                             <h3> Commercial and Residential Painting</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Wallpaper removal</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>All styles of finish and stains</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Murals and design</h3>
-                            </a>
+                            
                         </div>
                         <div class="progress-wrap">
-                            <a href="#">
+                            
                             <h3>Dry Wall and Plaster Repair</h3>
-                            </a>
+                            
                         </div>
                     </div>
 
@@ -194,8 +193,8 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author"> James G. </span>
-                        in <a href="/c.Verona.NJ.html">Verona, NJ</a>
+                        <span itemprop="author"> James G. in Verona, NJ </span>
+                        
                     </div>
                     <div>
                         <strong>Project:</strong>
@@ -228,8 +227,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author">Ron F. </span>
-                        in <a href="/c.Verona.NJ.html">Saddle River, NJ</a>
+                        <span itemprop="author">Ron F. in Saddle River, NJ </span>
                     </div>
                     <div>
                         <strong>Project:</strong>
