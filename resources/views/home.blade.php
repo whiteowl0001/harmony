@@ -247,7 +247,7 @@
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#middle-->
-    
+    <!--
 	<div class="">
        	<div id="google-map" data-latitude="40.827901" data-longitude="-74.148721"></div>
     </div><!--/#bottom-->
