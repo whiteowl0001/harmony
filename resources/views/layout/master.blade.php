@@ -54,6 +54,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<div class="navbar-toggle">
+							<a href="tel:201-556-8222"><i class="fa fa-phone-square fa-3x"></i></a>
 							<img src="img/logo.jpg" >
 							<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
 								<span class="sr-only">Toggle</span>
@@ -93,7 +94,7 @@
 						<ul class="social-share">
 							<li><a href="https://www.facebook.com/harmonypaintingnj/"><i class="fa fa-facebook fa-2x"></i></a></li>
 							<li><a href="https://www.youtube.com/channel/UCt4FK6bizuOsAe7ZegrWa8g"><i class="fa fa-youtube fa-2x"></i></a></li>
-							<li><a href="https://www.facebook.com/harmonypaintingnj/"><i class="fa fa-yelp fa-2x"></i></a></li>
+							<li><a href="https://www.yelp.com/biz/harmony-painting-nutley"><i class="fa fa-yelp fa-2x"></i></a></li>
 						</ul>
 				   </div>
                 </div>
@@ -122,17 +123,6 @@
                         </a>
                     </div><!--/.col-md-3-->
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                    	 <a href="http://www.homeadvisor.com/rated.HarmonyPaintingLLC.60133895.html">
-                         <img src="img/achieve/elite.png" class="img-responsive">
-                         </a>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                    	 <a href="http://www.homeadvisor.com/rated.HarmonyPaintingLLC.60133895.html">
-                         <img src="img/achieve/soap.png" class="img-responsive">
-                         </a>
-                    </div><!--/.col-md-3-->
                 </div>
 <!--
                 <div class="col-sm-4">

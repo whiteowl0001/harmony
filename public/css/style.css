@@ -1868,7 +1868,7 @@ ul.sidebar-gallery {
 .navbar img{
   width: 50%;
   height: auto;
-  margin-left: 60px;
+  margin-left: 5px;
 }
 
 
@@ -2298,4 +2298,8 @@ body.modal-open {
     background-image: none;
     border: 1px solid #E8CE0E;
     border-radius: 4px;
+}
+.navbar-toggle .fa-phone-square{
+     float: left;
+     padding-top: 5px;
 }
