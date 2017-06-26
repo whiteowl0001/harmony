@@ -2303,3 +2303,13 @@ body.modal-open {
      float: left;
      padding-top: 5px;
 }
+.modal-footer {
+    /* padding: 15px; */
+    text-align: right;
+    border-top: none;
+    background-color: black;
+}
+.modal-footer .btn{
+  background-color: #E8CE0E;
+  border-top: none;
+}

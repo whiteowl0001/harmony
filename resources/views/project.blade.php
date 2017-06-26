@@ -130,6 +130,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+         <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -195,6 +198,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -251,6 +257,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -295,6 +304,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -327,6 +339,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -359,6 +374,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -391,6 +409,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -471,6 +492,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -563,6 +587,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -617,6 +644,9 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
              </div><!-- /.modal-body -->
+               <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -658,6 +688,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -715,6 +748,9 @@
           </a>
           </div><!-- /.carousel slider -->
         </div><!-- /.modal-body -->
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
