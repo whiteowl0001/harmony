@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-    Harmony Painting - Exterior, Interior, and Mural Painting Contractor
+    Harmony Painting | Nutley NJ, 07110
 @stop
 
 @section('description')
