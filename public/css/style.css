@@ -2313,3 +2313,11 @@ body.modal-open {
   background-color: #E8CE0E;
   border-top: none;
 }
+
+.mobile-header .mobile-logo{
+  width: 55px;
+}
+.mobile-header .mobile-logo-text{
+  width: 90px;
+  padding-top: 12px;
+}

@@ -53,15 +53,24 @@
 			<nav class="navbar">
 				<div class="container">
 					<div class="navbar-header">
-						<div class="navbar-toggle">
+						<div class="navbar-toggle row mobile-header">
+							<div class="col-xs-2">
 							<a href="tel:201-556-8222"><i class="fa fa-phone-square fa-3x"></i></a>
-							<img src="img/logo.jpg" >
+							</div>
+								<div class="col-xs-2">
+							<img class="mobile-logo" src="img/logo-transparent-1.png" >
+							</div>
+								<div class="col-xs-3">
+							<img class="mobile-logo-text" src="img/logo-transparent-2.png" >
+										</div>
+								<div class="col-xs-2 col-xs-offset-3">
 							<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
 								<span class="sr-only">Toggle</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+							</div>
 						</div>
 					</div>
 
