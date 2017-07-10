@@ -10,39 +10,6 @@
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-                <span itemprop="ratingValue">
-                   4.0
-                </span>
-                <span class="t-text-lite">&nbsp;&nbsp;|&nbsp;&nbsp;<span itemprop="datePublished">06-05-2017</span></span>
-            </div>
-            <div class="profile-user-review-body">
-                <div class="t-heavy">
-                    <div>
-                        <strong>Review by</strong>
-                        <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author"> James G. in Verona, NJ </span>
-                    </div>
-                    <div>
-                        <strong>Project:</strong>
-                        Paint, Varnish or Stain Interior Surfaces
-                    </div>
-               </div>
-               <div class="profile-user-review-content">
-                  <span itemprop="reviewBody">Arrived on time. Worked hard. Cleaned up at end of day.</span>
-               </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="rating">
-    <div class="container">
-        <div class="row">
-            <div class="t-stars-small">
-                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <span itemprop="ratingValue">
                    5.0

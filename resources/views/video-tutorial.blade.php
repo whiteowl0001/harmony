@@ -4,7 +4,17 @@
 <div class="video">
     <div class="container">
         <div class="row">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OSK3mQpPvxg?rel=0" frameborder="0" allowfullscreen></iframe>        </div>
+            <div class="col-sm-4 video-layout">
+               <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/OSK3mQpPvxg?rel=0" allowfullscreen></iframe>       
+                </div>
+            </div>
+            <div class="col-sm-4 video-layout">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Gz51ciTi4ZA?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
  <script src="js/jquery.js"></script>

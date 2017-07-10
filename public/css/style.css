@@ -2321,3 +2321,7 @@ body.modal-open {
   width: 90px;
   padding-top: 12px;
 }
+.video-layout{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -86,7 +86,7 @@
 
                 <!--Interior Modal-->
   <div class="modal fade" id="interior-Modal">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-body">
           <!-- artist wall carousel-->
@@ -99,7 +99,7 @@
                                <!--Interior 2:images-->
             <div class="item active">
               <div class="row">
-                <div class="col-md-12 col-sm-12">
+                <div class="">
                   <img  class="img-responsive" src="images/interior/interior1.jpg" alt="First slide">
                 </div>
               
@@ -107,7 +107,7 @@
             </div>
             <div class="item">
               <div class="row">
-                <div class="col-md-12 col-xs-12">
+                <div class="">
               <img  class="img-responsive" src="images/interior/interior.jpg" alt="First slide">
                     </div>
                
@@ -115,7 +115,7 @@
             </div>
              <div class="item">
               <div class="row">
-                <div class="col-md-12 col-sm-12">
+                <div class="">
               <img  class="img-responsive" src="images/interior/interior-3.jpg" alt="First slide">
                     </div>
                
@@ -152,14 +152,14 @@
                                <!--Exterior Fence 2:images-->
             <div class="item active">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="">
               <img  class="img-responsive" src="images/exterior/exterior-fence.jpg" alt="Second slide">
                     </div>
               </div>
             </div>
              <div class="item">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="">
               <img  class="img-responsive" src="images/exterior/exterior-fence1.jpg" alt="Second slide">
                     </div>
                
@@ -167,7 +167,7 @@
             </div>
              <div class="item">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="">
               <img  class="img-responsive" src="images/exterior/exterior-fence2.jpg" alt="Second slide">
                     </div>
               
@@ -175,7 +175,7 @@
             </div>
              <div class="item">
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="">
               <img  class="img-responsive" src="images/exterior/exterior-fence3.jpg" alt="Second slide">
                     </div>
              
@@ -183,7 +183,7 @@
             </div>
              <div class="item">
                <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="">
               <img  class="img-responsive" src="images/exterior/exterior-stairs.jpg" alt="Second slide">
                     </div>
              

@@ -46,7 +46,7 @@
             ...
           </div>
         </div>
-          <div class="item ">
+          <div class="item">
           <img class="img-responsive center-block" src="images/interior/wallpaper-removal/wallpaper-removal.jpg" alt="...">
           <div class="carousel-caption">
             ...
