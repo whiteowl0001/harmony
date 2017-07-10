@@ -178,13 +178,15 @@
   <div id="rating-home">
     <div class="container">
         <div class="row">
+            <div class="col-sm-6 ratings">
             <div class="t-stars-small">
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <span itemprop="ratingValue">
-                   4.0
+                   5.0
                 </span>
                 <span class="t-text-lite">&nbsp;&nbsp;|&nbsp;&nbsp;<span itemprop="datePublished">06-05-2017</span></span>
             </div>
@@ -193,7 +195,7 @@
                     <div>
                         <strong>Review by</strong>
                         <span class="review-by-colon is-hidden">:</span>
-                        <span itemprop="author"> James G. in Verona, NJ </span>
+                        <span itemprop="author">Lorraine C. in Nutley, NJ </span>
                         
                     </div>
                     <div>
@@ -202,8 +204,9 @@
                     </div>
                </div>
                <div class="profile-user-review-content">
-                  <span itemprop="reviewBody">Arrived on time. Worked hard. Cleaned up at end of day.</span>
+                  <span itemprop="reviewBody">Arrived on time, got right to work. Did an exceptional job of painting my 50+ year old condo. The price was great and my place looks like new. Even the cleanup was professional. Could never have gotten this job done in 1 1/2 days without Harmony Painting. Highly recommended. Look no further; hire Harmony Painting.</span>
                </div>
+            </div>
             </div>
         </div>
     </div>
@@ -211,6 +214,7 @@
 <div id="rating-home">
     <div class="container">
         <div class="row">
+            <div class="col-sm-6 ratings">
             <div class="t-stars-small">
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-star fa-2x" aria-hidden="true"></i>
@@ -238,6 +242,7 @@
                   <span itemprop="reviewBody">Great customer service. I have already recommended them to family and friends.</span>
                </div>
             </div>
+        </div>
         </div>
     </div>
 </div>

@@ -2325,3 +2325,6 @@ body.modal-open {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.ratings{
+  padding-left: inherit;
+}
