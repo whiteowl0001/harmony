@@ -37,7 +37,11 @@
                                 @endif
                             </div>
                         </div>
-
+ <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-3">
+          <button type="submit" id="submit" class="btn btn-primary col-lg-8" >Login</button>
+        </div>
+      </div>
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <div class="checkbox">
