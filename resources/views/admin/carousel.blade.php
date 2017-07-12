@@ -14,11 +14,12 @@
                                 <i class="fa fa-dashboard"></i> Dashboard
                             </li>
                         </ol>
-                        <div>
-                            <form>
-                                <input type="file" name="file[]" multiple><br/>
-                                <input type="submit">
-                            </form>
+                        <div class="form-group">
+                                <h2>Upload</h2>
+                                {!! Form::open(array('url' => 'upload/uploadFiles', 'method'=>'POST', 'files'=>true)) !!}
+                                {!! Form::file('images[]', array('multiple' => true))!!}
+                                {!! Form::submit('Submit', array('class'=>'btn btn-lg btn-primary col-md-2'))!!}
+                                {!! Form::close() !!}
                         </div>
                     </div>
                 </div>

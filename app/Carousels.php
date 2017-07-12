@@ -4,7 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class carousel extends Model
+class Carousels extends Model
 {
     //
+    protected $table = 'carousel';
+    
 }
