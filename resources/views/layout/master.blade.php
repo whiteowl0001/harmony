@@ -83,6 +83,7 @@
 							<li><a href="/video-tutorial">Video Tutorial</a></li>
 							<li><a href="/testimonial">Ratings and Reviews</a></li>
 
+
 						<!--	<li><a href="/contact">Contact</a></li>
 						<!--	<li class="hidden-sm hidden-xs">
 	                            <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>

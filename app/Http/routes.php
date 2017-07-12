@@ -29,3 +29,18 @@ Route::get('/service', function () {
 Route::get('/testimonial', function () {
     return view('testimonial');
 });
+Route::get('/dashboard', function () {
+    return view('admin/admin');
+});
+Route::get('/carousel', function () {
+    return view('admin/carousel');
+});
+Route::get('/projects', function () {
+    return view('admin/projects');
+});
+Route::get('/reviews', function () {
+    return view('admin/reviews');
+});
+Route::get('/video', function () {
+    return view('admin/video');
+});
