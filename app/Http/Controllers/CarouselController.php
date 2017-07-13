@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Validator;
@@ -13,7 +12,10 @@ use App\Carousels;
 
 class CarouselController extends Controller
 {
-        public function upload(){
+        public function index(){
+            return view('admin.carousel');
+        }
+        public function multiple_upload(){
             $files = Input::file('images');
             $file_count = count($files);
             $uploadcount = 0;
@@ -23,21 +25,23 @@ class CarouselController extends Controller
                 $validator = Validator::make(array('file' => $file), $rules);
                 if($validator->passes()){
                     $destinationPath = 'carousel';
-                    $filename = $file->move($destinationPath, $filename);
+                    $filename = $file->getClientOriginalName();
                     $upload_success = $file->move($destinationPath, $filename);
                     $uploadcount ++;
                     
-                    $extenstion = $file->getClientOriginalExtention();
+                    $extension = $file->getClientOriginalExtention();
                     $entry = new Carousels();
                     $entry->mime = $file->getClientMimeType();
                     $entry->original_filename = $filename;
-                    $entry->filename = $file->getFilename(). '.' .$extention;
+                    $entry->filename = $file->getFilename().'.'.$extension;
                     $entry->save();
                 }
             }
             if($uploadcount == $file_count){
-                Session::flash('sucess', 'Upload Successful!');
-                return Redirect::to('carousel');
+                Session::flash('success', 'Upload Successfully!');
+                return Redirect::to('admin.carousel');
+            }else{
+                return Redirect::to('admin.carousel')->withInput()->withErrors($validator);
             }
         }
 }

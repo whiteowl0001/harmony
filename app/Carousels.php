@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Carousels extends Model
 {
     //
-    protected $table = 'carousels';
+    protected $table = 'carousel';
     
 }
