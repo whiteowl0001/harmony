@@ -35,9 +35,8 @@ Route::get('/testimonial', function () {
 Route::get('/dashboard', function () {
     return view('admin/admin');
 });
-Route::get('/carousel', function () {
-    return view('admin/carousel');
-});
+Route::get('/carousel', 'CarouselController@index');
+
 Route::get('/projects', function () {
     return view('admin/projects');
 });
@@ -47,4 +46,4 @@ Route::get('/reviews', function () {
 Route::get('/video', function () {
     return view('admin/video');
 });
-Route::post('upload/uploadFiles', 'CarouselController@upload');
+Route::post('upload/uploadFiles', 'CarouselController@multiple_upload');
