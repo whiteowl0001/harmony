@@ -18,7 +18,7 @@
                                 <h2>Upload</h2>
                                 {!! Form::open(array('url' => 'upload/uploadFiles', 'method'=>'POST', 'files'=>true)) !!}
                                 {!! Form::file('images[]', array('multiple' => true))!!}
-                                    <p>{{!!$error->first('images')!!}}</p>
+                                    <p>{{!!$errors->first('images')!!}}</p>
                                     @if(Session::has('error'))
                                     <p>{{!! Session::get('error')!!}}</p>
                                     @endif
