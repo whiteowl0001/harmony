@@ -47,3 +47,4 @@ Route::get('/reviews', function () {
 Route::get('/video', function () {
     return view('admin/video');
 });
+Route::post('upload/uploadFiles', 'CarouselController@upload');
