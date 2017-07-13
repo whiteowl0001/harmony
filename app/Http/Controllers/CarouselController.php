@@ -8,7 +8,7 @@ use Validator;
 use Responce;
 use Redirect;
 use Session;
-use App\Carousels;
+use App\Carousel;
 
 class CarouselController extends Controller
 {
