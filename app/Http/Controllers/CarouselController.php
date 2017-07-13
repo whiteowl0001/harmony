@@ -40,4 +40,3 @@ class CarouselController extends Controller
             }
         }
 }
-d
