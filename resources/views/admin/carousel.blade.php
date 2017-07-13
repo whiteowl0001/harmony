@@ -18,6 +18,10 @@
                                 <h2>Upload</h2>
                                 {!! Form::open(array('url' => 'upload/uploadFiles', 'method'=>'POST', 'files'=>true)) !!}
                                 {!! Form::file('images[]', array('multiple' => true))!!}
+                                    <p>{{!!$error->first('images')!!}}</p>
+                                    @if(Session::has('error'))
+                                    <p>{{!! Session::get('error')!!}}</p>
+                                    @endif
                                 {!! Form::submit('Submit', array('class'=>'btn btn-lg btn-primary col-md-2'))!!}
                                 {!! Form::close() !!}
                         </div>
@@ -28,4 +32,7 @@
             <!-- /.container-fluid -->
         </div>
         <!-- /#page-wrapper -->
+        <script src="js/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 @stop
