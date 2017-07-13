@@ -39,9 +39,9 @@ class CarouselController extends Controller
             }
             if($uploadcount == $file_count){
                 Session::flash('success', 'Upload Successfully!');
-                return Redirect::to('admin.carousel');
+                return redirect()->back();
             }else{
-                return Redirect::to('admin.carousel')->withInput()->withErrors($validator);
+                return redirect()->back();
             }
         }
 }
