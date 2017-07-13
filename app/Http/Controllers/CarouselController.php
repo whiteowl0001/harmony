@@ -30,7 +30,7 @@ class CarouselController extends Controller
                     $uploadcount ++;
                     
                     $extension = $file->getClientOriginalExtention();
-                    $entry = new Carousels();
+                    $entry = new Carousel();
                     $entry->mime = $file->getClientMimeType();
                     $entry->original_filename = $filename;
                     $entry->filename = $file->getFilename().'.'.$extension;
