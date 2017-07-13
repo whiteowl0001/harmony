@@ -12,7 +12,13 @@ class CreateCarouselTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('carousel', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('mime');
+            $table->string('filename');
+            $table->string('original_filename');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -22,6 +28,6 @@ class CreateCarouselTable extends Migration
      */
     public function down()
     {
-        //
+         Schema::drop('carousel');
     }
 }

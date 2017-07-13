@@ -23,13 +23,14 @@ class CarouselController extends Controller
                 if($validator->passes()){
                     $destinationPath = 'carousel';
                     $filename = $file->move($destinationPath, $filename);
+                    $upload_success = $file->move($destinationPath, $filename);
                     $uploadcount ++;
                     
                     $extenstion = $file->getClientOriginalExtention();
                     $entry = new Carousels();
                     $entry->mime = $file->getClientMimeType();
-                    $entry->filename = $filename;
-                    $entry->image = $file-getFilename(). '.' .$extention;
+                    $entry->original_filename = $filename;
+                    $entry->filename = $file->getFilename(). '.' .$extention;
                     $entry->save();
                 }
             }
@@ -39,3 +40,4 @@ class CarouselController extends Controller
             }
         }
 }
+d
