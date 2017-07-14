@@ -20,6 +20,9 @@ class CarouselController extends Controller
             
             if(Input::hasFile('images')){
                 echo 'Uploaded<br/>';
+                $file = Input::file('images');
+                $file->move('carousel', $file->getClientOriginalName());
+                echo '<img src="carousel/' . $file->getClientOriginalName() . '" />';
             }
       /*      if($request->hasFile('images')){
 
