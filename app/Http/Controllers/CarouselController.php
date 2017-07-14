@@ -19,11 +19,10 @@ class CarouselController extends Controller
         public function multiple_upload(Request $request){
             
             if($request->hasFile('images')){
-                $files = $request->file('images');
-                foreach($files as $file){
+
                         $filename = $file->getClientOriginalName();
                         $extension = $file->getClientOriginalExtention();
-                        $destinationPath = base_path() . '/public/carousel/';
+                        $destinationPath = base_path() . '\public\carousel';
                         $upload_success = $file->move($destinationPath, $filename);
                         
                         $entry = new Carousel();
@@ -31,7 +30,6 @@ class CarouselController extends Controller
                         $entry->original_filename = $filename;
                         $entry->filename = $file->getFilename().'.'.$extension;
                         $entry->save();
-                 }
             }
            return redirect()->back();
         }

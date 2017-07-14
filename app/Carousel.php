@@ -8,5 +8,9 @@ class Carousel extends Model
 {
     //
     protected $table = 'carousels';
-    
+    protected $fillable = [
+         'mime',
+         'filename',
+         'original_filename',
+        ];
 }
