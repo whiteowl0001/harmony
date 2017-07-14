@@ -18,8 +18,8 @@ class CarouselController extends Controller
         
         public function multiple_upload(){
             
-            if(Input::hasFile('file')){
-                echo 'Uploaded';
+            if(Input::hasFile('images')){
+                echo 'Uploaded<br/>';
             }
       /*      if($request->hasFile('images')){
 
