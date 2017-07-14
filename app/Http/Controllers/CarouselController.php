@@ -20,7 +20,8 @@ class CarouselController extends Controller
             
                 $files = Input::file('images');
                 foreach($files as $file){
-                    echo 'Uploaded<br/>';
+                    $name = $file->getClientOriginalName();
+                    echo $name;
                 }
                 
               /*  $file = Input::file('images');
