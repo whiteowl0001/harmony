@@ -16,9 +16,11 @@ class CarouselController extends Controller
             return view('admin.carousel');
         }
         
-        public function multiple_upload(Request $request){
+        public function multiple_upload(){
             
-            echo $request;
+            if(Input::hasFile('file')){
+                echo 'Uploaded';
+            }
       /*      if($request->hasFile('images')){
 
                         $filename = $file->getClientOriginalName();
