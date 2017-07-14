@@ -19,9 +19,9 @@
                                     {{ csrf_field() }}
                                     Product photos (can attach more than one):
                                     <br />
-                                    <input type="file" name="images"/>
+                                    <input type="file" name="images" id="images"/>
                                     <br /><br />
-                                    <input type="submit" value="Upload" />
+                                    <input type="submit" value="Upload"/>
                                 </form>
                         </div>
                     </div>
