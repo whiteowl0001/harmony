@@ -18,7 +18,8 @@ class CarouselController extends Controller
         
         public function multiple_upload(Request $request){
             
-            if($request->hasFile('images')){
+            echo $request;
+      /*      if($request->hasFile('images')){
 
                         $filename = $file->getClientOriginalName();
                         $extension = $file->getClientOriginalExtention();
@@ -30,7 +31,7 @@ class CarouselController extends Controller
                         $entry->original_filename = $filename;
                         $entry->filename = $file->getFilename().'.'.$extension;
                         $entry->save();
-            }
+            }*/
            return redirect()->back();
         }
 }
