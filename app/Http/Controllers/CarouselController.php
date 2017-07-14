@@ -31,7 +31,7 @@ class CarouselController extends Controller
                         $entry->original_filename = $filename;
                         $entry->filename = $file->getFilename().'.'.$extension;
                         $entry->save();
-            }*/
-           return redirect()->back();
+            }
+           return redirect()->back();*/
         }
 }
