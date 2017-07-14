@@ -18,9 +18,8 @@ class CarouselController extends Controller
         
         public function multiple_upload(){
             
-        
-                
-                foreach($_POST['images'] as $index => $value){
+                $files = Input::file('images');
+                foreach($files as $file){
                     echo 'Uploaded<br/>';
                 }
                 
