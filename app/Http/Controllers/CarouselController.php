@@ -19,10 +19,13 @@ class CarouselController extends Controller
         public function multiple_upload(){
             
             if(Input::hasFile('images')){
-                echo 'Uploaded<br/>';
-                $file = Input::file('images');
-                $file->move('carousel', $file->getClientOriginalName());
-                echo '<img src="carousel/' . $file->getClientOriginalName() . '" />';
+                $files = Input::hasFile('images');
+                foreach($files as $file){
+                    echo 'Uploaded<br/>';
+                }
+                
+              /*  $file = Input::file('images');
+                $file->move('carousel', $file->getClientOriginalName()); */
             }
       /*      if($request->hasFile('images')){
 
