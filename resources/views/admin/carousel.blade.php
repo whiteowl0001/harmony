@@ -16,14 +16,18 @@
                         </ol>
                         <div class="form-group">
                                 <h2>Upload</h2>
-                                {!! Form::open(array('url' => 'upload/uploadFiles', 'method'=>'POST', 'files'=>true)) !!}
-                                {!! Form::file('images[]', array('multiple' => true))!!}
-                                    <p>{!!$errors->first('images')!!}</p>
-                                    @if(Session::has('error'))
-                                    <p>{!! Session::get('error')!!}</p>
-                                    @endif
-                                {!! Form::submit('Submit', array('class'=>'btn btn-lg btn-primary col-md-2'))!!}
-                                {!! Form::close() !!}
+                               <form action="upload/uploadFiles" method="post" enctype="multipart/form-data">
+                                    {{ csrf_field() }}
+                                    Product name:
+                                    <br />
+                                    <input type="text" name="name" />
+                                    <br /><br />
+                                    Product photos (can attach more than one):
+                                    <br />
+                                    <input type="file" name="photos[]" multiple />
+                                    <br /><br />
+                                    <input type="submit" value="Upload" />
+                                </form>
                         </div>
                     </div>
                 </div>
