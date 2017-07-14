@@ -13,6 +13,17 @@
                                 <i class="fa fa-dashboard"></i> Dashboard
                             </li>
                         </ol>
+                         <div class="form-group">
+                                <h2>Upload</h2>
+                               <form action="upload/uploadFiles" method="post" enctype="multipart/form-data">
+                                    {{ csrf_field() }}
+                                    Product photos (can attach more than one):
+                                    <br />
+                                    <input type="file" name="images[]" multiple />
+                                    <br /><br />
+                                    <input type="submit" value="Upload" />
+                                </form>
+                        </div>
                     </div>
                 </div>
                 <!-- /.row -->
