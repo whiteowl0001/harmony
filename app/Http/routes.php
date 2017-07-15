@@ -13,7 +13,7 @@
 Route::auth();
 
 Route::get('home', 'HomeController@index');
-Route::get('/project', 'CarouselController@index');
+Route::get('/projects', 'CarouselController@index');
 Route::get('/', function () {
     return view('home');
 });
