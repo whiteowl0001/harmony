@@ -13,7 +13,8 @@ use App\Carousel;
 class CarouselController extends Controller
 {
         public function index(){
-            return view('admin.carousel');
+            $Images = Carousel::all();
+            return view('admin.projects')->with(compact('Images'));
         }
         
         public function multiple_upload(){
