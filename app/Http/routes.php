@@ -35,8 +35,6 @@ Route::get('/testimonial', function () {
 Route::get('/dashboard', function () {
     return view('admin/admin');
 });
-Route::get('/carousel', 'CarouselController@index');
-
 
 
 Route::get('/reviews', function () {
