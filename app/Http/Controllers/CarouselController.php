@@ -21,7 +21,6 @@ class CarouselController extends Controller
                 $files = Input::file('images');
                 foreach($files as $file){
                     $filename = $file->getClientOriginalName();
-                    $extension = $file->getClientOriginalExtention();
                     $file->move('carousel', $file->getClientOriginalName());
                     
                     $entry = new Carousel();
