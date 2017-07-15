@@ -25,14 +25,19 @@
                                 </form>
                         </div>
                         <div class="col-md-6">
+                             <div class="panel panel-default">
+                                <div class="panel-heading">Carousel Images</div>
+                                    <div class="panel-body">
                             @foreach ($Images as $Image)
                 	    	<div class="col-md-6">
                                 <div>
-                                    <img class="img-responsive center-block" width="auto" height="auto" src="/carousel/{{$Image->original_filename}}">
+                                    <img width="200px" height="auto" src="/carousel/{{$Image->original_filename}}">
                                 </div>
                             </div>
                         @endforeach
                         </div>
+                    </div>
+                     </div>
                     </div>
                 </div>
                 <!-- /.row -->
