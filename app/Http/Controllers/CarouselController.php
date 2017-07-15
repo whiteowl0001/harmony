@@ -25,9 +25,7 @@ class CarouselController extends Controller
                     $file->move('carousel', $file->getClientOriginalName());
                     
                     $entry = new Carousel();
-                    $entry->mime = $file->getClientMimeType();
                     $entry->original_filename = $filename;
-                    $entry->filename = $file->getFilename().'.'.$extension;
                     $entry->save();
                 }
                 
