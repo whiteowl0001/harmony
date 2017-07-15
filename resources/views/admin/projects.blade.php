@@ -25,10 +25,10 @@
                                 </form>
                         </div>
                         <div class="col-md-12">
-                            @foreach ($Carousel as $Carousels)
+                            @foreach ($Images as $Image)
                 	    	<div class="col-md-6">
                                 <div class="hovereffect portfolioImage">
-                                    <img class="img-responsive center-block" width="auto" height="auto" src="/carousel/{{$Carousels->original_filename}}">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/carousel/{{$Image->original_filename}}">
                                 </div>
                             </div>
                         @endforeach
