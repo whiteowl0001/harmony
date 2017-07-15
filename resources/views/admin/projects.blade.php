@@ -24,6 +24,15 @@
                                     <input type="submit" value="Upload"/>
                                 </form>
                         </div>
+                        <div class="col-md-12">
+                            @foreach ($Carousel as $Carousels)
+                	    	<div class="col-md-6">
+                                <div class="hovereffect portfolioImage">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/carousel/{{$Carousels->original_filename}}">
+                                </div>
+                            </div>
+                        @endforeach
+                        </div>
                     </div>
                 </div>
                 <!-- /.row -->
