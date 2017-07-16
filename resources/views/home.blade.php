@@ -40,7 +40,7 @@
             ...
           </div>
         </div>
-        <div class="item adjust">
+        <div class="item">
           <img class="img-responsive center-block" src="img/mural1.jpg" alt="...">
           <div class="carousel-caption">
             ...
@@ -52,13 +52,13 @@
             ...
           </div>
         </div>
-          <div class="item adjust">
+          <div class="item">
           <img class="img-responsive center-block" src="images/mural/artist-wall/artist-wall4.jpg" alt="...">
           <div class="carousel-caption">
             ...
           </div>
         </div>
-           <div class="item adjust">
+           <div class="item">
           <img class="img-responsive center-block" src="images/exterior/fence/fence3.jpg" alt="...">
           <div class="carousel-caption">
             ...
