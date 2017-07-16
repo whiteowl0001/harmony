@@ -2192,8 +2192,8 @@ ul, ol {
 }
 .carousel-inner>.adjust>img{
     line-height: 1;
-    width: 38%;
-    height: auto;
+    width: auto;
+    height: 450px;
 }
 .carousel-inner>.adjust-height>img{
     line-height: 1;
