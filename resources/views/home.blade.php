@@ -22,11 +22,8 @@
 
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-          @{int i = 0;}
             @foreach ($Images as $Image) {
             {
-                i++;
-                var active = i == 1 ? "active" : "";
         <div class="item @active">
             <img src="/carousel/{{$Image->original_filename}}" alt="carousel">
         </div>
