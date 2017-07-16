@@ -22,48 +22,15 @@
 
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-        <div class="item adjust active">
-          <img class="img-responsive center-block" src="images/mural/school/mural-school2.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div> 
-        <div class="item">
-          <img class="img-responsive center-block" src="images/interior/interior1.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
+          @{int i = 0;}
+            @foreach ($Images as $Image) {
+            {
+                i++;
+                var active = i == 1 ? "active" : "";
+        <div class="item @active">
+            <img src="/carousel/{{$Image->original_filename}}" alt="carousel">
         </div>
-        <div class="item">
-          <img class="img-responsive center-block" src="img/updated-outdoor-stairs.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-        <div class="item">
-          <img class="img-responsive center-block" src="img/mural1.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-          <div class="item">
-          <img class="img-responsive center-block" src="images/interior/wallpaper-removal/wallpaper-removal.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-          <div class="item">
-          <img class="img-responsive center-block" src="images/mural/artist-wall/artist-wall4.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-           <div class="item">
-          <img class="img-responsive center-block" src="images/exterior/fence/fence3.jpg" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
+            }
     </div>
 
   <!-- Controls -->
