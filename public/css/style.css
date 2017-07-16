@@ -2113,8 +2113,8 @@ ul, ol {
 }
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     line-height: 1;
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 450px;
 }
 .nav>li>a {
     position: relative;
