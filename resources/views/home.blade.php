@@ -22,7 +22,7 @@
 
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-        <div class="col-xs-6 item adjust active">
+        <div class="item active">
           <img class="img-responsive center-block" src="images/mural/school/mural-school2.jpg" alt="...">
           <div class="carousel-caption">
             ...
