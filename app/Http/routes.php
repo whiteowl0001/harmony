@@ -13,13 +13,10 @@
 Route::auth();
 
 Route::get('home', 'CarouselController@home');
-Route::get('/projects', 'CarouselController@index');
 Route::get('/test', 'CarouselController@test');
+Route::get('/video-tutorial', 'VideoController@video');
 Route::get('/', function () {
     return view('home');
-});
-Route::get('/video-tutorial', function () {
-    return view('video-tutorial');
 });
 Route::get('/contact', function () {
     return view('contact');
@@ -33,15 +30,14 @@ Route::get('/service', function () {
 Route::get('/testimonial', function () {
     return view('testimonial');
 });
+
+/*admin controllers */
+
 Route::get('/dashboard', function () {
     return view('admin/admin');
 });
-
-
 Route::get('/reviews', function () {
     return view('admin/reviews');
 });
-Route::get('/video', function () {
-    return view('admin/video');
-});
+Route::get('/video', 'VideoController@index');
 Route::post('upload/uploadFiles', 'CarouselController@multiple_upload');
