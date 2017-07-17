@@ -16,7 +16,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">Add Video</div>
                             <div class="panel-body">
-                                <form enctype="multipart/form-data" action="{{url('/upload/video_name')}}" method="POST">
+                                <form enctype="multipart/form-data" action="{{url('upload/video_name')}}" method="POST">
                                 {!! csrf_field() !!}
                                     <div class="col-lg-5">
                                                                 <!--Add Video-->
