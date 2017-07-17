@@ -16,7 +16,14 @@ class CarouselController extends Controller
             $Images = Carousel::all();
             return view('admin.projects')->with(compact('Images'));
         }
-        
+         public function home(){
+            $Images = Carousel::all();
+            return view('home')->with(compact('Images'));
+        }
+          public function test(){
+            $Images = Carousel::all();
+            return view('test')->with(compact('Images'));
+        }
         public function multiple_upload(){
             
                 $files = Input::file('images');

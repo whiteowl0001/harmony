@@ -14,6 +14,7 @@ Route::auth();
 
 Route::get('home', 'CarouselController@home');
 Route::get('/projects', 'CarouselController@index');
+Route::get('/test', 'CarouselController@test');
 Route::get('/', function () {
     return view('home');
 });
