@@ -32,14 +32,14 @@
             		    </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-md-offset-2">
+                                <div class="col-md-8">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">Projects</div>
                                             <div class="panel-body">
                                                    @foreach ($Videos as $Video)
                                                         <div class="col-sm-6">
                                                            <div >
-                                                                <iframe class="embed-responsive-item"  src="{{$Video->video_name}}" allowfullscreen></iframe>       
+                                                                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/{{$Video->video_name}}" allowfullscreen></iframe>       
                                                             </div>
                                                         </div>
                                                     @endforeach 
