@@ -23,5 +23,7 @@ class VideoController extends Controller
         $entry = new Video();
         $entry->video_name = $video_link;
         $entry->save();
+        
+        return redirect('/video');
     }    
 }
