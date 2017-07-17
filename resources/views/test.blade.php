@@ -4,21 +4,25 @@
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-      @foreach( $Images as $Image )
-         <li data-target="#carousel-example-generic" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
-      @endforeach
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
   </ol>
 
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-        @foreach ($Images as $Image)
-            <div class="item {{ $loop->first ? ' active' : '' }}">
+          @foreach ($Images as $index => $image)
+            <div class="item @if($index == '1'){{'active'}}@endif">
               <img class="img-responsive center-block" src="/carousel/{{$Image->original_filename}}" alt="...">
               <div class="carousel-caption">
                 ...
               </div>
             </div> 
         @endforeach
+        <div class="item active">
     </div>
 
   <!-- Controls -->
