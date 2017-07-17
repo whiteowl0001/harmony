@@ -10,11 +10,11 @@ use App\Video;
 class VideoController extends Controller
 {
     public function index(){
-            $Videos = Carousel::all();
+            $Videos = Video::all();
             return view('admin.video')->with(compact('Videos'));
         }
     public function video(){
-            $Videos = Carousel::all();
+            $Videos = Video::all();
             return view('video-tutorial')->with(compact('Videos'));
         }
     public function video_name(Request $request){
