@@ -18,12 +18,9 @@ class VideoController extends Controller
             return view('video-tutorial')->with(compact('Videos'));
         }
     public function video_name(Request $request){
-        $video_link = $request;
-        
-        $entry = new Video();
-        $entry->video_name = $video_link;
-        $entry->save();
-        
+        $video_link = new Video();
+        $video_link->video_name = $request->video_name;
+        $video_link->save();
         return redirect('/video');
     }    
 }
