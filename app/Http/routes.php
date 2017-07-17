@@ -42,3 +42,4 @@ Route::get('/reviews', function () {
 });
 Route::get('/video', 'VideoController@index');
 Route::post('upload/uploadFiles', 'CarouselController@multiple_upload');
+Route::post('upload/video', 'VideoController@video_name');
