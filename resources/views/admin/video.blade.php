@@ -34,7 +34,7 @@
                              <div class="panel panel-default">
                                 <div class="panel-heading">Videos</div>
                                     <div class="panel-body">
-                            @foreach ($Videos as $video)
+                            @foreach ($Videos as $Video)
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-sm-4 video-layout">
