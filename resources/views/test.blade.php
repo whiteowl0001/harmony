@@ -1,12 +1,4 @@
 @extends('layout.master')
-@section('title')
-    Harmony Painting | Nutley NJ, 07110
-@stop
-
-@section('description')
-    Need an amazing Painting Contractor in New Jersey? Harmony Painting provides Exterior, Interior, 
-    and Mural services in your area. 
-@stop
 @section('content')
 	
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -24,7 +16,7 @@
     <div class="carousel-inner" role="listbox">
         @foreach ($Images as $Image)
             <div class="item active">
-              <img class="img-responsive center-block" src="images/mural/school/mural-school2.jpg" alt="...">
+              <img class="img-responsive center-block" src="/carousel/{{$Image->original_filename}}" alt="...">
               <div class="carousel-caption">
                 ...
               </div>
