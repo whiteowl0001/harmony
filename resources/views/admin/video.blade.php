@@ -30,24 +30,25 @@
                                 </form>
             		        </div>
             		    </div>
-                        <div class="col-md-12">
-                             <div class="panel panel-default">
-                                <div class="panel-heading">Videos</div>
-                                    <div class="panel-body">
-                            @foreach ($Videos as $Video)
-                                <div class="container">
-                                    
-                                        <div class="col-sm-4 video-layout">
-                                           <div class="embed-responsive embed-responsive-16by9">
-                                                <iframe class="embed-responsive-item"  src="{{$Video->video_name}}" allowfullscreen></iframe>       
-                                            </div>
-                                        </div>
-                                    
-                                </div>
-                            @endforeach 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Projects</div>
+                                            <div class="panel-body">
+                                                   @foreach ($Videos as $Video)
+                                                        <div class="col-sm-6">
+                                                           <div >
+                                                                <iframe class="embed-responsive-item"  src="{{$Video->video_name}}" allowfullscreen></iframe>       
+                                                            </div>
+                                                        </div>
+                                                    @endforeach 
+                        		            </div>
+                        		        </div>
+                        	        </div>
+                        	    </div>
+                            </div>
                         </div>
-                    </div>
-                     </div>
                     </div>
                 </div>
                 <!-- /.row -->
