@@ -15,11 +15,8 @@
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
           @foreach ($Images as $index => $Image)
-            <div class="item @if($index == '1'){{'active'}}@endif">
+            <div class="item @if($index == '0'){{'active'}}@endif">
               <img class="img-responsive center-block" src="/carousel/{{$Image->original_filename}}" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
             </div> 
         @endforeach
         <div class="item active">
