@@ -35,8 +35,13 @@
                                         <br>
                                     </div>
                                     <div class="form-group col-lg-2">
-                                        <input type="text" class="form-control" id="stars" name="stars" placeholder="Rating">
-                                        <br>
+                                        <select class="form-control" id="stars">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
                                     </div>
                                      <div class="form-group col-lg-10">
                                         <input type="text" class="form-control" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
