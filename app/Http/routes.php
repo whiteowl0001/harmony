@@ -12,12 +12,10 @@
 */
 Route::auth();
 
-Route::get('home', 'CarouselController@home');
+Route::get('/', 'CarouselController@home');
 Route::get('/test', 'CarouselController@test');
 Route::get('/video-tutorial', 'VideoController@video');
-Route::get('/', function () {
-    return view('home');
-});
+
 Route::get('/contact', function () {
     return view('contact');
 });
