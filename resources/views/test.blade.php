@@ -50,7 +50,7 @@
     </div>
   </div>
 </div>
-
+</div>
                 <!--Interior Modal-->
   <div class="modal fade" id="interior-Modal">
     <div class="modal-dialog modal-lg">
@@ -82,6 +82,7 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
+ 
  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
