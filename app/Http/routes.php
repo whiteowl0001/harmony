@@ -15,29 +15,21 @@ Route::auth();
 Route::get('/', 'CarouselController@home');
 Route::get('/test', 'CarouselController@test');
 Route::get('/video-tutorial', 'VideoController@video');
+Route::get('/testimonial', 'ReviewsController@review');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
 Route::get('/project', function () {
     return view('project');
 });
 Route::get('/service', function () {
     return view('services');
 });
-Route::get('/testimonial', function () {
-    return view('testimonial');
-});
 
 /*admin controllers */
-Route::get('/projects', 'CarouselController@index');
-
 Route::get('/dashboard', function () {
     return view('admin/admin');
 });
-Route::get('/reviews', function () {
-    return view('admin/reviews');
-});
+Route::get('/projects', 'CarouselController@index');
+Route::get('/reviews', 'ReviewsController@index');
 Route::get('/video', 'VideoController@index');
 Route::post('upload/uploadFiles', 'CarouselController@multiple_upload');
 Route::post('upload/video', 'VideoController@video_name');

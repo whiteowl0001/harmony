@@ -12,7 +12,17 @@ class CreateReviewsTabel extends Migration
      */
     public function up()
     {
-        //
+           Schema::create('review', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('month');
+            $table->integer('day');
+            $table->integer('year');
+            $table->integer('stars');
+            $table->string('reviewed_by');
+            $table->string('project_title');
+            $table->string('project_description');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -22,6 +32,6 @@ class CreateReviewsTabel extends Migration
      */
     public function down()
     {
-        //
+         Schema::drop('review');
     }
 }
