@@ -32,6 +32,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
 
 <div id="main_area">
   <div class="container">
@@ -50,7 +51,7 @@
     </div>
   </div>
 </div>
-</div>
+
                 <!--Interior Modal-->
   <div class="modal fade" id="interior-Modal">
     <div class="modal-dialog modal-lg">
