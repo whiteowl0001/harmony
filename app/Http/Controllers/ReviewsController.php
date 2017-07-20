@@ -18,7 +18,7 @@ class ReviewsController extends Controller
             $Reviews = Review::all();
             return view('testimonial')->with(compact('Reviews'));
         }
-    public function REview_upload(Request $request){
+    public function review_upload(Request $request){
         $review = new Review();
         $review->month = $request->month;
         $review->day = $request->day;
