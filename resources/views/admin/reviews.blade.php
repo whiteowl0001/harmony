@@ -14,7 +14,7 @@
                             </li>
                         </ol>
                         <div class="panel panel-default">
-                            <div class="panel-heading">Add Video</div>
+                            <div class="panel-heading">Add Review</div>
                             <div class="panel-body">
                                 <form enctype="multipart/form-data" action="upload/review" method="POST">
                                 {!! csrf_field() !!}
