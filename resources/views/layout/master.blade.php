@@ -58,7 +58,7 @@
 							<a href="tel:201-556-8222"><i class="fa fa-phone-square fa-3x"></i></a>
 							</div>
 								<div class="col-xs-4">
-							<img class="" src="img/logo-transparent.png" >
+							<img class="img-responsive" src="img/logo-transparent.png" >
 							</div>
 								<div class="col-xs-2 col-xs-offset-3">
 							<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
