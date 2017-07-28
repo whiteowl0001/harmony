@@ -2212,6 +2212,8 @@ ul, ol {
     margin-top: -16px;
     margin-bottom: 0px;
     text-align: center;
+    margin-left: -16px;
+    margin-right: -1px;
 }
 .navbar-toggle .icon-bar {
     border: 1px solid #E8CE0E;
