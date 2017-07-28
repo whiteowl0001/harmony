@@ -23,6 +23,14 @@
                 </a>
               </li>
             </div>
+             <div class="col-md-3">
+              <li>
+                <a href="#plaster-repair" data-slide-to="0" class="thumbnail">
+                  <img src="images/interior/plaster-repair/plaster-repair.jpg" alt="plaster repair"  data-toggle="modal" data-target="#Plaster-Repair-Modal">
+                  <h2>Plaster Repair</h2>
+                </a>
+              </li>
+            </div>
             <div class="col-md-3">
               <li>
                 <a href="#wallpaper-removal" data-slide-to="0" class="thumbnail">
@@ -102,7 +110,6 @@
                 <div class="">
                   <img  class="img-responsive" src="images/interior/interior1.jpg" alt="First slide">
                 </div>
-              
               </div>
             </div>
             <div class="item">
@@ -110,7 +117,6 @@
                 <div class="">
               <img  class="img-responsive" src="images/interior/interior.jpg" alt="First slide">
                     </div>
-               
               </div>
             </div>
              <div class="item">
@@ -118,7 +124,6 @@
                 <div class="">
               <img  class="img-responsive" src="images/interior/interior-3.jpg" alt="First slide">
                     </div>
-               
               </div>
             </div>
               </div><!-- /.carousel-inner -->
@@ -205,6 +210,85 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
   
+                              <!--Plaster Repair Modal-->
+  <div class="modal fade" id="Plaster-Repair-Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <!-- artist wall carousel-->
+          <div class="carousel slider" id="interior">
+            <ol class="carousel-indicators">
+              <li data-target="#plaster-repair" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+     
+                               <!--Interior 2:images-->
+            <div class="item active">
+              <div class="row">
+                <div class="">
+                  <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before.jpg" alt="First slide">
+                </div>
+              
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before6.jpg"  alt="First slide">
+                    </div>
+               
+              </div>
+            </div>
+             <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before7.jpg"  alt="First slide">
+                    </div>
+              </div>
+            </div>
+                 <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before5.jpg"  alt="First slide">
+                    </div>
+              </div>
+            </div>
+                 <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster-repair.jpg"  alt="First slide">
+                    </div>
+              </div>
+            </div>
+                 <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair after3.jpg"  alt="First slide">
+                    </div>
+              </div>
+            </div>
+                 <div class="item">
+              <div class="row">
+                <div class="">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair after.jpg"  alt="First slide">
+                    </div>
+              </div>
+            </div>
+              </div><!-- /.carousel-inner -->
+             <a class="left carousel-control" href="#interior" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#interior" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+          </div><!-- /.carousel slider -->
+        </div><!-- /.modal-body -->
+         <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
                                        <!--wallpaper-removal Modal-->
   <div class="modal fade" id="wallpaper-removal-Modal">
     <div class="modal-dialog">
