@@ -60,7 +60,7 @@
 							<div class="col-xs-4">
 								<img class="img-responsive" src="img/logo.jpg" >
 							</div>
-							<div class="col-xs-2 col-xs-offset-3">
+							<div class="col-xs-2">
 								<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
 									<span class="sr-only">Toggle</span>
 									<span class="icon-bar"></span>
