@@ -216,19 +216,18 @@
       <div class="modal-content">
         <div class="modal-body">
           <!-- artist wall carousel-->
-          <div class="carousel slider" id="interior">
+          <div class="carousel slider" id="plaster-repair">
             <ol class="carousel-indicators">
               <li data-target="#plaster-repair" data-slide-to="0" class="active"></li>
             </ol>
             <div class="carousel-inner">
      
-                               <!--Interior 2:images-->
+                               <!--Plaster Repair 2:images-->
             <div class="item active">
               <div class="row">
                 <div class="">
                   <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before.jpg" alt="First slide">
                 </div>
-              
               </div>
             </div>
             <div class="item">
@@ -236,7 +235,6 @@
                 <div class="">
               <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before6.jpg"  alt="First slide">
                     </div>
-               
               </div>
             </div>
              <div class="item">
@@ -275,10 +273,10 @@
               </div>
             </div>
               </div><!-- /.carousel-inner -->
-             <a class="left carousel-control" href="#interior" role="button" data-slide="prev">
+             <a class="left carousel-control" href="#plaster-repair" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
-          <a class="right carousel-control" href="#interior" role="button" data-slide="next">
+          <a class="right carousel-control" href="#plaster-repair" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
           </div><!-- /.carousel slider -->
