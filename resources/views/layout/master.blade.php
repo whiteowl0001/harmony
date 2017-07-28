@@ -57,7 +57,7 @@
 							<div class="col-xs-2">
 								<a href="tel:201-556-8222"><i class="fa fa-phone-square fa-3x"></i></a>
 							</div>
-							<div class="col-xs-4">
+							<div class="col-xs-8">
 								<img class="img-responsive" src="img/logo.jpg" >
 							</div>
 							<div class="col-xs-2">
