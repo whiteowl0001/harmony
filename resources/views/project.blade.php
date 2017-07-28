@@ -240,7 +240,7 @@
              <div class="item">
               <div class="row">
                 <div class="">
-              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair before7.jpg"  alt="First slide">
+              <img  class="img-responsive" src="images/interior/plaster-repair/plaster repair bfore7.jpg"  alt="First slide">
                     </div>
               </div>
             </div>
