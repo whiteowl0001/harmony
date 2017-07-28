@@ -60,9 +60,6 @@
 								<div class="col-xs-2">
 							<img class="mobile-logo" src="img/logo-transparent.png" >
 							</div>
-								<div class="col-xs-3">
-							<img class="mobile-logo-text" src="img/logo-transparent-2.png" >
-										</div>
 								<div class="col-xs-2 col-xs-offset-3">
 							<button type="button" class="mobile-device collapsed" data-toggle="collapse" data-target="#ftheme">
 								<span class="sr-only">Toggle</span>
