@@ -58,7 +58,7 @@
 							<a href="tel:201-556-8222"><i class="fa fa-phone-square fa-3x"></i></a>
 							</div>
 								<div class="col-xs-2">
-							<img class="mobile-logo" src="img/logo-transparent-1.png" >
+							<img class="mobile-logo" src="img/logo-transparent.png" >
 							</div>
 								<div class="col-xs-3">
 							<img class="mobile-logo-text" src="img/logo-transparent-2.png" >
