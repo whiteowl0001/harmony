@@ -66,13 +66,7 @@
                         <a href="/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="/carousel"><i class="fa fa-fw fa-picture-o"></i> Carousel</a>
-                    </li>
-                    <li>
-                        <a href="/projects"><i class="fa fa-fw fa-table"></i> Projects</a>
-                    </li>
-                    <li>
-                        <a href="/reviews"><i class="fa fa-fw fa-edit"></i> Reviews</a>
+                        <a href="/projects"><i class="fa fa-fw fa-table"></i> Carousel</a>
                     </li>
                     <li>
                         <a href="/video"><i class="fa fa-fw fa-edit"></i> Videos</a>
