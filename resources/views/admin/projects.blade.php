@@ -29,9 +29,9 @@
                                 <div class="panel-heading">Carousel Images</div>
                                     <div class="panel-body">
                             @foreach ($Images as $Image)
-                	    	<div class="col-md-3">
+                	    	<div class="col-md-4">
                                 <div>
-                                    <img width="200px" height="auto" src="/carousel/{{$Image->original_filename}}">
+                                    <img width="auto" height="150px" src="/carousel/{{$Image->original_filename}}">
                                 </div>
                             </div>
                         @endforeach
