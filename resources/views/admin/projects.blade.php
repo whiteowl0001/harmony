@@ -38,7 +38,7 @@
                                     @foreach ($Images as $Image)
                                     <tr>
                                         <td><img width="auto" height="150px" src="/carousel/{{$Image->original_filename}}"></td>
-                                        <td>$321.33</td>
+                                        <td><button type="button" class="btn btn-lg btn-danger">Delete</button></td>
                                     </tr>
                                     @endforeach
                                 </tbody>
