@@ -18,7 +18,7 @@
                             <div class="panel-body">
                                 <form enctype="multipart/form-data" action="upload/review" method="POST">
                                 {!! csrf_field() !!}
-                                    <div class="col-lg-12">
+                                    <div class="col-lg-2">
                                                                 <!--Add Video-->
                                         <p>Reviews</p>
                                     </div>
