@@ -35,8 +35,8 @@
                                         </div>
                                     </div>
                                      <div class="form-group">
-                                        <label for="select" class="col-lg-2 control-label">Rating</label>
-                                        <input type="text" class="form-control" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
+                                        <label for="select" class="col-lg-12 control-label">Rating</label>
+                                        <input type="text" class="form-control col-lg-12" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
                                         <br>
                                     </div>
                                      <div class="form-group col-lg-10">
