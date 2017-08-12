@@ -22,6 +22,18 @@
                                                                 <!--Add Video-->
                                         <p>Reviews</p>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="select" class="col-lg-2 control-label">Rating</label>
+                                        <div class="col-lg-10">
+                                            <select class="form-control" id="select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                     <div class="form-group col-lg-2">
                                         <input type="text" class="form-control" id="stars" name="stars" placeholder="Stars">
                                         <br>
