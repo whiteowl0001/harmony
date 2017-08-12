@@ -34,8 +34,8 @@
                                             </select>
                                         </div>
                                     </div>
-                                
-                                     <div class="form-group col-lg-10">
+                                     <div class="form-group">
+                                        <label for="select" class="col-lg-2 control-label">Rating</label>
                                         <input type="text" class="form-control" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
                                         <br>
                                     </div>
