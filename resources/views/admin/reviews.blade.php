@@ -24,8 +24,8 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="select" class="col-lg-2 control-label">Rating</label>
-                                        <div class="col-lg-10">
-                                            <select class="form-control" id="select">
+                                        <div class="col-lg-2">
+                                            <select class="form-control" id="stars" name="stars">
                                                 <option>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -34,10 +34,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-group col-lg-2">
-                                        <input type="text" class="form-control" id="stars" name="stars" placeholder="Stars">
-                                        <br>
-                                    </div>
+                                
                                      <div class="form-group col-lg-10">
                                         <input type="text" class="form-control" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
                                         <br>
