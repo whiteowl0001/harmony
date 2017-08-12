@@ -64,6 +64,9 @@
                     <li>
                         <a href="/video"><i class="fa fa-fw fa-edit"></i> Videos</a>
                     </li>
+                    <li>
+                        <a href="/reviews"><i class="fa fa-fw fa-edit"></i> Reviews</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
