@@ -23,8 +23,8 @@
                                         <p>Reviews</p>
                                     </div>
                                     <div class="form-group">
-                                        <label for="select" class="col-lg-2 control-label">Rating</label>
-                                        <div class="col-lg-2">
+                                        <label for="select" class="col-lg-12 control-label">Rating</label>
+                                        <div class="col-lg-12">
                                             <select class="form-control" id="stars" name="stars">
                                                 <option>1</option>
                                                 <option>2</option>
