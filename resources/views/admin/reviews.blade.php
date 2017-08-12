@@ -35,15 +35,17 @@
                                         </div>
                                     </div>
                                      <div class="form-group">
-                                        <label for="select" class="col-lg-12 control-label">Rating</label>
-                                        <input type="text" class="form-control col-lg-12" id="reviewed_by" name="reviewed_by" placeholder="Reviewed By">
+                                        <label for="select" class="col-lg-12 control-label">Name</label>
+                                        <input type="text" class="form-control col-lg-12" id="reviewed_by" name="reviewed_by">
+                                        <br>
+                                    </div>
+                                     <div class="form-group">
+                                        <label for="select" class="col-lg-12 control-label">Review Title</label>
+                                        <input type="text" class="form-control" id="project_title" name="project_title">
                                         <br>
                                     </div>
                                      <div class="form-group col-lg-10">
-                                        <input type="text" class="form-control" id="project_title" name="project_title" placeholder="Project Title">
-                                        <br>
-                                    </div>
-                                     <div class="form-group col-lg-10">
+                                        <label for="select" class="col-lg-12 control-label">Your Review</label>
                                         <textarea type="textarea" name="project_description" placeholder="Project Description"></textarea>
                                         <br>
                                     </div>
