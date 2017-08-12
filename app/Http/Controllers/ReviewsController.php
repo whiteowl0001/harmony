@@ -20,9 +20,6 @@ class ReviewsController extends Controller
         }
     public function review_upload(Request $request){
         $review = new Review();
-        $review->month = $request->month;
-        $review->day = $request->day;
-        $review->year = $request->year;
         $review->stars = $request->stars;
         $review->reviewed_by = $request->reviewed_by;
         $review->project_title = $request->project_title;

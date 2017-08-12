@@ -22,18 +22,6 @@
                                                                 <!--Add Video-->
                                         <p>Reviews</p>
                                     </div>
-                    	    	    <div class="form-group col-lg-2">
-                                        <input type="text" class="form-control" id="month" name="month" placeholder="Month">
-                                        <br>
-                                    </div>
-                                    <div class="form-group col-lg-2">
-                                        <input type="text" class="form-control" id="day" name="day" placeholder="Day">
-                                        <br>
-                                    </div>
-                                    <div class="form-group col-lg-2">
-                                        <input type="text" class="form-control" id="year" name="year" placeholder="Year">
-                                        <br>
-                                    </div>
                                     <div class="form-group col-lg-2">
                                         <input type="text" class="form-control" id="stars" name="stars" placeholder="Stars">
                                         <br>
