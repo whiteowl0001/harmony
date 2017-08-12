@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-12">
                         <h1 class="page-header">
                            Reviews
                         </h1>
@@ -18,7 +18,7 @@
                             <div class="panel-body">
                                 <form enctype="multipart/form-data" action="upload/review" method="POST">
                                 {!! csrf_field() !!}
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-12">
                                                                 <!--Add Video-->
                                         <p>Reviews</p>
                                     </div>
