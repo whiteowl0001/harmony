@@ -16,6 +16,7 @@
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/reviews/custom.css" rel="stylesheet">
 	<script src="https://use.fontawesome.com/ad5057c19b.js"></script>
 	
     <!-- =======================================================

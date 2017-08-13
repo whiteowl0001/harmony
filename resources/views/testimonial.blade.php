@@ -1,5 +1,8 @@
 @extends('layout.master')
 @section('content')
+
+<link href="css/reviews/custom.css" rel="stylesheet">
+
 <main role="main">
     <div class="container">
         <div class="row">
