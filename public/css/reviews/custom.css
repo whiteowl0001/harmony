@@ -1,0 +1,132 @@
+.review {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #cbd4d6;
+}
+h1 {
+    color: #000;
+    font-size: 39px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 21px;
+}
+h2 {
+    color: #000;
+    font-size: 20px;
+}
+.review__rating > i {
+    font-size: 18px;
+    color: #FFD700;
+}
+.review__content {
+    margin-top: 1em;
+}
+.nav-aside-container {
+    margin-top: 58px;
+}
+.nav-aside-header {
+    position: relative;
+    background-color: #243139;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 23px;
+}
+.nav-aside {
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #cbd4d6;
+}
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+}
+.form-group, .contact-content form fieldset .field, .review-form form fieldset .field {
+    margin-bottom: 15px;
+}
+.review-form form fieldset label {
+    color: #8899a0;
+}
+.review-form form fieldset select, .review-form form fieldset input, .review-form form fieldset textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #cbd4d6;
+}
+.form-control, .contact-content form fieldset input, .contact-content form fieldset textarea, .review-form form fieldset select, .review-form form fieldset input, .review-form form fieldset textarea {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.review-form form .Actions .action {
+    color: #40809b;
+    border-color: #40809b;
+}
+.btn, .contact-content form .Actions .action, .review-form form .Actions .action {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+input[type="submit"].btn-block, .review-form form .Actions input[type="submit"].action, input[type="reset"].btn-block, .review-form form .Actions input[type="reset"].action, input[type="button"].btn-block, .review-form form .Actions input[type="button"].action {
+    width: 100%;
+}
+textarea.form-control, .contact-content form fieldset textarea, .review-form form fieldset textarea {
+    height: auto;
+}
+.btn-default, .contact-content form .Actions .action, .review-form form .Actions .action {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn, .contact-content form .Actions .action, .review-form form .Actions .action {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.review-form form .Actions .action {
+    color: #40809b;
+    border-color: #40809b;
+}
+.nav-aside-header:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #243139 transparent transparent transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
