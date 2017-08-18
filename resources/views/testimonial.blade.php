@@ -10,8 +10,8 @@
 					<div class="col-sm-9">
 						<div class="content">
 							<h1>Reviews</h1>
-    						    <div class="review">
-    							     @foreach ($Reviews as $Review)
+							     @foreach ($Reviews as $Review)
+    						         <div class="review">
     									<h2>{{$Review->project_title}}</h2>
     									@if({{$Review->stars}} = 5)
     									<div class="review__rating">
