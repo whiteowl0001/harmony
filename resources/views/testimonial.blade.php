@@ -10,21 +10,46 @@
 					<div class="col-sm-9">
 						<div class="content">
 							<h1>Reviews</h1>
-								<div class="review">
-									<h2>Refinish Already Installed Cabinets</h2>
-									<div class="review__rating">
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-									<p class="review__content">Great customer service. 
-									I have already recommended them to family and friends.</p>
-									<div class="review__footer">
-										-Ron F. | June 2017
-									</div>
-								</div>
+							    @foreach ($Reviews as $Review)
+    							    <div class="review">
+    									<h2>{{$Review->project_title}}</h2>
+    									@if({{$Review->stars}} = 5)
+    									<div class="review__rating">
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        @elseif({{$Review->stars}} = 4)
+                                        <div class="review__rating">
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        @elseif({{$Review->stars}} = 3)
+                                        <div class="review__rating">
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        @elseif({{$Review->stars}} = 2)
+                                        <div class="review__rating">
+    										<i class="fa fa-star" aria-hidden="true"></i>
+    										<i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        @elseif({{$Review->stars}} = 1)
+                                        <div class="review__rating">
+    										<i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        @endif
+    									<p class="review__content">{{$Review->project_description}}</p>
+    									<div class="review__footer">
+    										-{{$Review->reviewed_by}}. | June 2017
+    									</div>
+    								</div>
+                                @endforeach
 								<div class="review">
 									<h2>Paint, Varnish or Stain Interior Surfaces.</h2>
 									<div class="review__rating">
