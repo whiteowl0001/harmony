@@ -25,6 +25,6 @@ class ReviewsController extends Controller
         $review->project_title = $request->project_title;
         $review->project_description = $request->project_description;   
         $review->save();
-        return redirect('/reviews');
+        return redirect('/testimonial');
     } 
 }
