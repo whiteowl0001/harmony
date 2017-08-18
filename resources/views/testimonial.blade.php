@@ -216,7 +216,7 @@
                             		<div id="Rating" class="field dropdown">
                             	    <label class="left" for="ReviewForm_ReviewForm_Rating">Rating</label>
                             	        <div class="middleColumn">
-                            		        <select class="form-control" id="stars" name="stars">
+                            		        <select class="form-control" id="stars" name="stars" required="required">
                                             	<option value="5">5 Stars</option>
                                             	<option value="4">4 Stars</option>
                                             	<option value="3">3 Stars</option>
@@ -228,19 +228,19 @@
 			                        <div id="Name" class="field text">
                                     	<label class="left" for="ReviewForm_ReviewForm_Name">Name</label>
                                     	<div class="middleColumn">
-                                    		<input type="text" class="form-control col-lg-12" id="reviewed_by" name="reviewed_by">
+                                    		<input type="text" class="form-control col-lg-12" id="reviewed_by" name="reviewed_by" required="required">
                                     	</div>
                                     </div>
 			                        <div id="Email" class="field email text">
                                     	<label class="left" for="ReviewForm_ReviewForm_Email">Review Title</label>
                                     	<div class="middleColumn">
-                                    		<input type="text" class="form-control" id="project_title" name="project_title">
+                                    		<input type="text" class="form-control" id="project_title" name="project_title" required="required">
                                     	</div>
                                     </div>
 			                        <div id="Content" class="field textarea">
                                     	<label class="left" for="ReviewForm_ReviewForm_Content">Your review</label>
                                     	<div class="middleColumn">
-                                    		<textarea type="textarea" name="project_description" placeholder="Project Description" rows="5" cols="20"></textarea>
+                                    		<textarea type="textarea" name="project_description" placeholder="Project Description" rows="5" cols="20" required="required"></textarea>
                                     	</div>
                                     </div>
 		                            	<input type="hidden" name="SecurityID" value="3a80941fd7d0552aa693e5d52a48905f9546f67d" class="hidden" id="ReviewForm_ReviewForm_SecurityID">
