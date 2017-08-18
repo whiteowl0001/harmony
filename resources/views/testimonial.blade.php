@@ -191,7 +191,7 @@
                             		<div id="Rating" class="field dropdown">
                             	    <label class="left" for="ReviewForm_ReviewForm_Rating">Rating</label>
                             	        <div class="middleColumn">
-                            		        <select name="Rating" class="dropdown"  id="stars" required="required" aria-required="true">
+                            		        <select class="form-control" id="stars" name="stars">
                                             	<option value="5">5 Stars</option>
                                             	<option value="4">4 Stars</option>
                                             	<option value="3">3 Stars</option>
