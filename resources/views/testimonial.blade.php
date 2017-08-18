@@ -13,7 +13,7 @@
 							     @foreach ($Reviews as $Review)
     						         <div class="review">
     									<h2>{{$Review->project_title}}</h2>
-    									@if({{$Review->stars}} = 5)
+    									@if($Review->stars = 5)
     									<div class="review__rating">
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
