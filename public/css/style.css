@@ -2114,7 +2114,7 @@ ul, ol {
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     line-height: 1;
     width: auto;
-    height: 350px;
+    height: 300px;
 }
 .nav>li>a {
     position: relative;
