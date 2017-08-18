@@ -13,13 +13,15 @@
                                 <i class="fa fa-dashboard"></i> Dashboard
                             </li>
                         </ol>
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <h2>Reviews</h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Images</th>
+                                            <th>Customer Name</th>
+                                            <th>Project Title</th>
+                                            <th>Project Description</th>
                                         </tr>
                                     </thead>
                                     <tbody>
