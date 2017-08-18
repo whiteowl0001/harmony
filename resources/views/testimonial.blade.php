@@ -21,25 +21,25 @@
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
                                         </div>
-                                        @elseif({{$Review->stars}} = 4)
+                                        @elseif($Review->stars = 4)
                                         <div class="review__rating">
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
                                         </div>
-                                        @elseif({{$Review->stars}} = 3)
+                                        @elseif($Review->stars = 3)
                                         <div class="review__rating">
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
                                         </div>
-                                        @elseif({{$Review->stars}} = 2)
+                                        @elseif($Review->stars = 2)
                                         <div class="review__rating">
     										<i class="fa fa-star" aria-hidden="true"></i>
     										<i class="fa fa-star" aria-hidden="true"></i>
                                         </div>
-                                        @elseif({{$Review->stars}} = 1)
+                                        @elseif($Review->stars = 1)
                                         <div class="review__rating">
     										<i class="fa fa-star" aria-hidden="true"></i>
                                         </div>
