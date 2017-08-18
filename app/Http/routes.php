@@ -29,6 +29,7 @@ Route::get('/dashboard', function () {
     return view('admin/admin');
 });
 Route::get('/projects', 'CarouselController@index');
+Route::get('delete_image', 'CarouselController@delete');
 Route::get('/reviews', 'ReviewsController@index');
 Route::get('/video', 'VideoController@index');
 Route::post('upload/uploadFiles', 'CarouselController@multiple_upload');

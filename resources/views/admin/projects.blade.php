@@ -39,7 +39,7 @@
                                     @foreach ($Images as $Image)
                                     <tr>
                                         <td><img width="auto" height="150px" src="/carousel/{{$Image->original_filename}}"></td>
-                                        <td><button type="button" class="btn btn-lg btn-danger">Delete</button></td>
+                                        <td><a href="/delete_image"><button type="button" class="btn btn-lg btn-danger" id="delete">Delete</button></a></td>
                                     </tr>
                                     @endforeach
                                 </tbody>

@@ -24,6 +24,12 @@ class CarouselController extends Controller
             $Images = Carousel::all();
             return view('test')->with(compact('Images'));
         }
+         public function delete(Delete $request){
+            $image = $request->image;
+            
+            $image->delete();
+            return redirect('/admin/projects');
+        }
         public function multiple_upload(){
             
                 $files = Input::file('images');
