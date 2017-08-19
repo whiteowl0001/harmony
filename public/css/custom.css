@@ -31,3 +31,7 @@ background: #428bca;
 .modal.and.carousel {
   position: absolute; 
 }
+.nav-aside-header {
+    background-color: #333;
+    color: #E8CE0E;
+}
