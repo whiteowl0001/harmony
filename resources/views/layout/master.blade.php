@@ -12,7 +12,7 @@
    
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-
+	<link rel="shortcut icon" href="{{{ asset('assets/img/logo-transparent-1.png') }}}">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
